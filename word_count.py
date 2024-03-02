@@ -21,7 +21,6 @@ def clean_text(dataframe):
     dataframe["text"] = dataframe["text"].str.lower()
     dataframe["text"] = dataframe["text"].str.replace(".","")
     dataframe["text"] = dataframe["text"].str.replace(",","")
-
     return dataframe
 
 
